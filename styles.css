@@ -25,10 +25,15 @@
     border-bottom: 1px solid #ccc;
   }
 
+
   header h1 {
     margin-bottom: 10px;
   }
 
+  #logo a {
+    text-decoration: none;
+    color: inherit;
+  }
   nav ul {
     list-style: none;
     display: flex;
@@ -159,30 +164,26 @@
 
 
 /* Banner styles for the book project page */
-#banner-wrap-book {
-    background: #f3f3f3 url(https://www.amandaclayton.org/files/theme/banner-wrap-short.jpg?1718138301) center top repeat-x;
-    border-bottom: 4px solid #fd502e; /* Consistent with the main banner */
-    padding: 45px 0;
-}
-
-#banner-book {
-    overflow: hidden;
-    margin: 0;
-}
-
-.wsite-header-book {
-    width: 960px;
-    height: auto; /* Adjust height as needed */
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for text */
+#book-content {
     padding: 20px;
-    text-align: center;
 }
 
-.wsite-header-book h2 {
-    font-size: 2.5rem;
-    color: #333;
-    margin: 0;
+/* Image Gallery */
+.imageGallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
 }
+
+.galleryImage {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
 
 /* Main content styles for the book project page */
 .book-project-content {
@@ -316,3 +317,31 @@ footer {
 }
 
 
+
+
+/* CV Page Specific Styles */
+.cv-section {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .cv-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+  }
+
+  .cv-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+
+  .cv-section a {
+    color: #0066cc;
+    text-decoration: underline;
+  }
+
+  .cv-section a:hover {
+    color: #004999;
+  }
