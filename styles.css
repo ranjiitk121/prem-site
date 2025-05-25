@@ -52,29 +52,22 @@
   }
 
 
+  .image {
+    width: 100%;
+    max-width: 100%;
+  }
 
-
-#banner-wrap {
-    background: #f3f3f3 url(https://www.amandaclayton.org/files/theme/banner-wrap-short.jpg?1718138301) center top repeat-x;
-     border-bottom: 1px solid #d8d8d8;
-     padding: 45px 0;
-
-}
-#banner {
-    overflow: hidden;
-    border-bottom: 4px solid #fd502e;
-    margin: 0;
-}
-  #intro-img  .image {
-       max-width: 100%;
-    }
+  .gray-img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  }
 
 
 .wsite-header {
-    width: 960px;
-    height: 173px;
-    background-image: url(https://www.amandaclayton.org/uploads/2/5/7/1/25717216/header_images/1395784718.jpg) !important;
-    background-position: 0 0 !important;
+  background-image: url("./public/images/final.jpg");
+  height: 200px;
+  background-size: 100% 100%;
+  border-radius: 4px;
 }
 
   /* Intro section */
@@ -357,20 +350,19 @@ footer {
 
 
   @media (min-width: 750px) {
-    section.intro {
-        display: flex;
-    }
-
-    #intro-text {
-        flex-basis: 65%;;
-        flex-grow: 3;
-    }
-
     #intro-img {
-        flex-basis: 30%;
-        flex-grow: 1;
-    }
+        float: right;
+        width: 30%;
+        height: auto;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        border-radius: 4px;
+      }
 
-
+      section.intro {
+        overflow: hidden;
+        font-size: 1.1em;
+        line-height: 1.6;
+      }
 
   }
