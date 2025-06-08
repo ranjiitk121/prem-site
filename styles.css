@@ -61,7 +61,7 @@ nav a:hover {
 }
 
 .wsite-header {
-    background-image: url('https://reachivy.com/uploads/top_university_mba/Darden.jpg');
+    background-image: url('./public/images/header.jpg');
     height: 250px;
     background-size: 100% 100%;
     border-radius: 4px;
