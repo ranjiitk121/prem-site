@@ -1,0 +1,4 @@
+[change link to other color, focus should go into journal instead of the link]
+Teaching 
+    changes the ratings as per CV
+    update teaching case add one more
